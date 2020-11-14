@@ -1,0 +1,49 @@
+baseurl = "https://amemas.github.io"
+publishDir = "docs"
+languageCode = "ja"
+title = "飴マスブログ"
+theme = "hugo-theme-yuki"
+author = "飴雨"
+
+# Copyright notice. This will display on the footer.
+copyright = "© 2020 amemas blog"
+paginate = 10
+
+# Theme config
+[params]
+
+  # The content you want to be listed on list pages.
+  mainSections = ["post"]
+
+  # The information will display on the post pages.
+  author = "飴雨"
+  description = "アイマスPです。主に原田美世、森久保乃々、大原みちるとかを担当してたり。"
+  authorwebsite = "https://example.com/"
+
+  # The path to your images
+  favicon = "images/logo.png"
+  logo = "images/logo.png"
+  avatar = ""
+  displayImg = "images/display.png"
+
+  # This will display on the index page
+  snsTitle = "Social"
+
+  # Google Analytics API key.
+  ga_api_key = "Your Google Analytics tracking id"
+
+# Navbar config
+[[menu.nav]]
+    name = "HOME"
+    url = "/"
+    weight = 1
+
+[[menu.nav]]
+    name = "BLOG"
+    url = "/post"
+    weight = 2
+
+[[menu.nav]]
+    name = "ABOUT"
+    url = "/about"
+    weight = 3
