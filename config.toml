@@ -35,7 +35,7 @@ paginate = 10
 # Navbar config
 [[menu.nav]]
     name = "HOME"
-    url = "/"
+    url = "/blog"
     weight = 1
 
 [[menu.nav]]
