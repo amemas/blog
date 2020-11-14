@@ -1,4 +1,4 @@
-baseurl = "https://amemas.github.io/blog/"
+baseurl = "https://amemas.github.io/blog"
 languageCode = "ja"
 title = "飴マスブログ"
 theme = "hugo-theme-yuki"
